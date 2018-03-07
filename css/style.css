@@ -46,7 +46,7 @@ body {
     height: 80px;
 }
 .content {
-    background-color: violet;
+    
 }
 .footer {
     background-color: #efefef;
@@ -54,7 +54,13 @@ body {
 }
 .top {
     background-color: #4ca368;
-    height: 870px;
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+.top h1 {
+    font-size: 48px;
+    font-weight: 400px;
 }
 .center1 {
     background-color: #ececec;
