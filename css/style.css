@@ -25,7 +25,6 @@ body {
     display: block;
     width: 1200px;
     margin: 0 auto;
-    padding-top: 12px;
 }
 .header {
     background-color:#282828;
@@ -51,13 +50,15 @@ body {
 }
 .footer {
     background-color: #efefef;
-    height: 460px;
 }
 .top {
     background-color: #4ca368;
     width: 1200px;
     margin: 0 auto;
     text-align: center;
+}
+.pc {
+    display: block;
 }
 .top h1 {
     font-size: 48px;
@@ -87,8 +88,9 @@ body {
     font-size: 16px;
     padding-left: 20px;
 }
-.cont_ ul {
+.ns {
     list-style: none;
+    padding: 0;
 }
 .bloc1 {
     width: 630px;
@@ -138,6 +140,10 @@ body {
 .bottom {
     background-color: #ececec;
     padding: 100px 0 100px;
+    text-align: center;
+}
+.bottom h2 {
+    font-size: 48px;
 }
 .features-list{
     display: flex;
@@ -149,11 +155,16 @@ body {
 .features-list li{
     background: blue;
     flex: 0 1 24%;
-    height: 100px;
     border: 1px solid #fff;
 }
+.features-list li p {
+    font-size: 12px;
+}
+.features-list li h3 {
+    font-size: 16px;
+}
 .bottom h3 {
-    text-align: center;
+  
 }
 .social {
     padding: 0;
@@ -175,6 +186,8 @@ body {
 }
 .nav h2 {
     font-size: 54px;
+}
+.name {
     color: #636666;
     font-family:'Sans7';
     font-weight: 400;
@@ -188,4 +201,39 @@ body {
 }
 .nav .menu li {
     margin-left: 45px
+}
+.bot_ {
+    display: flex;
+    justify-content: space-between;
+}
+.b_link {
+    display: flex;
+}
+.bl ul {
+    padding-top: 20px;
+}
+.bl {
+    padding-right: 60px;
+}
+.bot_ h3 {
+    font-size: 16px;
+}
+.bl li {
+    font-size: 13px;
+}
+.n_l p {
+    font-size: 12px;
+    padding-top: 20px;
+}
+.b_row {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.b_row h2 {
+    font-size: 20px;
+}
+.b_row p {
+    font-size: 11px;
 }
