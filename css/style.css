@@ -237,3 +237,6 @@ body {
 .b_row p {
     font-size: 11px;
 }
+.container .social img {
+    width: 12px;
+}
