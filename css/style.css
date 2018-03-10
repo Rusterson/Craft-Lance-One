@@ -57,9 +57,6 @@ body {
     margin: 0 auto;
     text-align: center;
 }
-.pc {
-    display: block;
-}
 .top h1 {
     font-size: 48px;
     font-weight: 100px;
@@ -237,6 +234,6 @@ body {
 .b_row p {
     font-size: 11px;
 }
-.container .social img {
-    width: 12px;
+.container svg {
+   fill:white;
 }
