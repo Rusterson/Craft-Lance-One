@@ -7,9 +7,8 @@ body {
 @font-face {
     font-family: 'Sans7';
     src: url(/fonts/basic_sans_serif_7.ttf);
-    src: url(/fonts/basic_sans_serif_7.ttf), local(/fonts/basic_sans_serif_7.ttf) format('truetype');
+    src: url(/fonts/basic_sans_serif_7.ttf), local('fonts/basic_sans_serif_7.ttf') format('truetype');
 }
-
 .main {
     display: grid;
      /* grid-template-rows: 25vh 25vh 25vh 25vh;*/
@@ -20,7 +19,6 @@ body {
     ;
     
 }
-
 .container {
     display: block;
     width: 1200px;
