@@ -25,6 +25,14 @@ body {
     display: block;
     width: 1200px;
     margin: 0 auto;
+    fill: #fff;
+}
+.container svg {
+    padding: 5px;
+}
+.box-contact {
+    display: flex;
+    align-items: center;
 }
 .header {
     background-color:#282828;
@@ -76,6 +84,9 @@ body {
 }
 .cont_ h2 {
     font-size: 48px;
+}
+.cont_ svg {
+    fill: #5db442;
 }
 .cont_ h3 {
     font-size: 26px;
@@ -150,9 +161,9 @@ body {
     justify-content: space-between;
 }
 .features-list li{
-    background: blue;
+    background: #ffffff;
     flex: 0 1 24%;
-    border: 1px solid #fff;
+    border: 1px solid #ececec;
 }
 .features-list li p {
     font-size: 12px;
@@ -160,14 +171,14 @@ body {
 .features-list li h3 {
     font-size: 16px;
 }
-.bottom h3 {
-  
+.features-list svg {
+    fill: #5db442;
 }
 .social {
     padding: 0;
 }
 .contact {
-    display: flex;
+    display: flex; /*Poderia usar outro parametro aqui, teria algum problema ?*/
     font-family: 'Roboto', sans-serif;
     font-size: 13px;
 }
@@ -234,6 +245,9 @@ body {
 .b_row p {
     font-size: 11px;
 }
-.container svg {
-   fill:white;
+.btn-sign {
+    text-decoration: none;
+    color: #5db442;
+    border: 1px solid  #5db442;
+    border-radius: 45%;
 }
