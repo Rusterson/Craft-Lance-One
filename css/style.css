@@ -15,18 +15,20 @@ body {
     grid-template-areas: "header"
                          "nav"
                          "Main"
-                         "footer"
-    ;
-    
+                         "footer";
 }
 .container {
     display: block;
     width: 1200px;
     margin: 0 auto;
-    fill: #fff;
+}
+.link {
+    text-decoration: none;
+    color: #000;
 }
 .container svg {
     padding: 5px;
+    fill: #fff;
 }
 .box-contact {
     display: flex;
@@ -48,7 +50,7 @@ body {
 }
 .nav {
     background-color:#ffffff;
-    height: 80px;
+    /*height: 80px;*/
 }
 .content {
     width: 1200px;
@@ -65,7 +67,7 @@ body {
 }
 .top h1 {
     font-size: 48px;
-    font-weight: 100px;
+    font-weight: 400;
 }
 .texta {
     font-size: 16px;
@@ -82,6 +84,7 @@ body {
 }
 .cont_ h2 {
     font-size: 48px;
+    font-weight: 400;
 }
 .cont_ svg {
     fill: #5db442;
@@ -175,10 +178,13 @@ body {
 .social {
     padding: 0;
 }
+.social .link {
+    color: #fff;
+}
 .contact {
     display: flex; /*Poderia usar outro parametro aqui, teria algum problema ?*/
     font-family: 'Roboto', sans-serif;
-    font-size: 13px;
+    font-size: 14px;
 }
 .contact .tel {
     padding-right: 10px;
@@ -200,10 +206,10 @@ body {
 }
 .menu {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
     list-style: none;
     font-size: 14px;
-    padding-top: 30px;
+    
 }
 .nav .menu li {
     margin-left: 45px
@@ -247,6 +253,45 @@ body {
     text-decoration: none;
     color: #5db442;
     border: 1px solid  #5db442;
-    border-radius: 45%;
+    border-radius: 80px;
+    display: block;
+    width: 100px;
+    height: 26px;
+    text-align: center;
+    line-height: 24px;
+    font-size: 12px;
 }
-/* Upando novamente no GITHUB */
+.register-email-box {
+    border: 2px solid #37804e;
+    border-radius: 80px;
+    width: 292px;
+    margin: auto;
+}
+.register-email {
+    display: flex;
+    height: 35px;
+}
+.email-text {
+    border: 0;
+    width: 210px;
+    border-radius: 80px 0 0 80px;
+    font-size: 12px;
+    text-align: center;
+}
+.btn-email {
+    border: 0;
+    border-radius: 0 80px 80px 0;
+    width: 82px;
+    background-color: #37804e;
+    font-size: 14px;
+}
+.btn-email .link {
+    color: #fff;
+}
+.s_link .link-sign {
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 80px;
+    border: 2px solid #5db442;
+}
