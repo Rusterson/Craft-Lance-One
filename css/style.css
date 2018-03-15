@@ -17,7 +17,7 @@ body {
     display: flex;
     justify-content: space-between;
 }
-.container svg {
+.header .container svg {
     fill: #fff;
 }
 .social .link {
@@ -124,31 +124,109 @@ body {
 }
 .s_link {
     display: flex;
-    padding: 0;
     justify-content: space-around;
+    margin: auto;
 }
 .s_link li {
     font-size: 12px;
+    display: block;
 }
 .cont_link {
     width: 630px;
     margin: 0 auto;
+    text-align: center;
 }
 .center2 {
     background-color: #ffffff;
     text-align: center;
     display:flex;
 }
-.pack ul {
+.center2 .container h2 {
+    font-size: 48px;
+    font-weight: 300;
+}
+.btn-pack {
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    margin: 50px;
+}
+.btn-left {
+
+border-right-width: 0.5px;
+
+border: 1px solid #5db442;
+
+border-radius: 80px 0 0 80px;
+
+font-size: 12px;
+
+width: 139.5px;
+
+align-items: center;
+
+display: flex;
+
+justify-content: center;
+
+background-color: #5db442;
+
+color: #fff;
+}
+.or {
+
+border: 2px solid #4ca368;
+
+background-color: #4ca368;
+
+border-radius: 80px;
+
+margin-top: 3px;
+
+font-size: 10px;
+
+width: 20px;
+
+height: 20px;
+
+position: absolute;
+
+display: flex;
+
+align-items: center;
+
+justify-content: center;
+
+color: #fff;
+}
+.btn-right {
+    
+border: 1px solid #5db442;
+    
+border-radius: 0 80px 80px 0;
+    
+font-size: 12px;
+    
+width: 139.5px;
+    
+border-left-width: 0.5px;
+    
+display: flex;
+    
+align-items: center;
+    
+justify-content: center;
+}
+.pack > ul {
     display: flex;
     padding: 0;
     list-style: none;
     justify-content: space-around;
 }
-.pack li {
+.pack > ul > li {
     height: 400px;
     width: 270px;
-    background-color: beige;
+    border: 2px solid #ececec;
 }
 
 .bottom {
@@ -300,4 +378,9 @@ body {
     background-color: #fff;
     border-radius: 80px;
     border: 2px solid #5db442;
+    margin: auto;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
