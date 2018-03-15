@@ -11,6 +11,7 @@ body {
 .container {
     margin: 0 auto;
     width: 1200px;
+    align-items: center;
 }
 .nav .container {
     display: flex;
@@ -33,7 +34,6 @@ body {
 }
 .header {
     background-color:#282828;
-    height: 40px;
 }
 .header .container{
     color: #fff;
@@ -56,27 +56,33 @@ body {
 }
 .top .container {
     text-align: center;
+    padding: 100px;
 }
 .top h1 {
     font-size: 48px;
-    font-weight: 400;
+    font-weight: 300;
 }
 .texta {
     font-size: 16px;
+    margin: 15px;
 }
 .textb {
     color: white;
     font-size: 14px;
 }
 .center1 {
-    background-color: #ececec;
+    background-image: url('/img/bk-img.png');
+    border-top: 28px solid #fff;
+}
+.center1 .container {
+    padding: 100px;
 }
 .cont_ {
     text-align: center;
 }
 .cont_ h2 {
     font-size: 48px;
-    font-weight: 400;
+    font-weight: 300;
 }
 .cont_ svg {
     fill: #5db442;
@@ -94,11 +100,18 @@ body {
     padding: 0;
 }
 .bloc1 {
+    border: 2px solid #f1f1f1;
     width: 630px;
     background-color: white;
-    margin: 0 auto;
+    margin: 30px auto;
     display: flex;
     justify-content: center;
+    padding: 90px;
+    box-shadow: 0 0 20px 2px #d6d6d6;
+}
+.bloc1 .seta {
+    display: flex;
+    align-items: center;
 }
 .icon {
     display: block;
@@ -107,7 +120,7 @@ body {
     font-size: 26px;
     color: #5db442;
     font-weight: 100;
-    padding-bottom: 26px;
+    margin: 26px;
 }
 .s_link {
     display: flex;
@@ -185,7 +198,7 @@ body {
     width: 1200px;
 }
 .nav h2 {
-    font-size: 54px;
+    font-size: 30px;
 }
 .name {
     color: #636666;
@@ -196,17 +209,21 @@ body {
     align-items: center;
     list-style: none;
     font-size: 14px;
+}
+.menu a {
+    display: block;
+    padding: 20px;
+}
+.menu a:hover {
+    background:#f1f1f1;
     
 }
-.nav .menu li {
-    margin-left: 45px
+.nav .menu li:last-child {
+    margin-left: 20px;
 }
 .bot_ {
     display: flex;
     justify-content: space-between;
-}
-.b_link {
-    display: flex;
 }
 .bl ul {
     padding-top: 20px;
@@ -236,7 +253,7 @@ body {
 .b_row p {
     font-size: 11px;
 }
-.btn-sign {
+.menu .btn-sign {
     text-decoration: none;
     color: #5db442;
     border: 1px solid  #5db442;
@@ -247,16 +264,18 @@ body {
     text-align: center;
     line-height: 24px;
     font-size: 12px;
+    padding: 0;
 }
 .register-email-box {
     border: 2px solid #37804e;
     border-radius: 80px;
     width: 292px;
-    margin: auto;
+    margin: 25px auto;
 }
 .register-email {
     display: flex;
     height: 35px;
+    /* margin: 10px; */
 }
 .email-text {
     border: 0;
